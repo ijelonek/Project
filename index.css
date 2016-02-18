@@ -7,3 +7,12 @@ h1 {
 	letter-spacing: 8px
 }
 
+form {
+	width: 300px;
+	margin: 0 auto;
+}
+
+input {
+	margin-bottom: 20px;
+
+}
