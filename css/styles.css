@@ -33,7 +33,6 @@ body {
 	font-weight: 200;
 	line-height: 2;
 	
-
 }
 
 
@@ -52,6 +51,9 @@ body {
 	
 	font-family: 'Lobster';
 	text-align: center;
+	color: white;
+	word-spacing: 8px;
+	letter-spacing: 5px;
 }
 
 .nav{
@@ -78,6 +80,7 @@ text-align: justify;
 .glyphicons-book-open{
 	color:#0086b3;
 }
+<<<<<<< HEAD
 
 
 /*
@@ -117,7 +120,7 @@ h3{
 	color:white;
 }
 
-
 =======
-*/
+	
 >>>>>>> origin/master
+
