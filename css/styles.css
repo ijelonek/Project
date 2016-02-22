@@ -80,47 +80,15 @@ text-align: justify;
 .glyphicons-book-open{
 	color:#0086b3;
 }
-<<<<<<< HEAD
-
-
-/*
-h1 {
-	color: white;
-	font-weight: 700;
-	font-size:100px;
-	text-align: center;
-	letter-spacing: 8px
-}
-h2 { 
-	color: white;
-	font-weight: 300;
-	font-size: 35px;
-	word-spacing: 8px;
-	text-align: center;
-
-
+.container-contactpage {
+	font-family: 'Lobster', cursive;
+	color: grey;
+	font-size: 50px;
+	letter-spacing: 5px;
+	text-align: left;
+	font-weight: 200;
+	line-height: 2;
 }
 
-form {
-	width: 300px;
-	margin: 0 auto;
-}
 
-input {
-	margin-bottom: 20px;
-
-}
-
-body {
-	background: #ececec;
-}
-
-<<<<<<< HEAD
-h3{
-	color:white;
-}
-
-=======
-	
->>>>>>> origin/master
 
