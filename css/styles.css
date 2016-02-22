@@ -74,6 +74,11 @@ text-align: justify;
 .survey {
 	border: 1px solid grey;
 	}
+
+.icon-bar{
+	background-color:#0086b3;
+}
+	
 /*
 h1 {
 	color: white;
@@ -111,9 +116,7 @@ h3{
 	color:white;
 }
 
-.icon-bar{
-	background-color:#0086b3;
-}
+
 =======
 */
 >>>>>>> origin/master
