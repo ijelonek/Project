@@ -13,13 +13,17 @@ body {
 	border: 1px solid grey;
 }
 
-.jumbotron{
+/*.jumbotron{
 	background-image:url("../images/jumbotron5.jpg");
 	background-size: cover;
 	background-size: 100% 100%;
 	
 	height:100%;
 	width:100%;
+}*/
+
+.jumbotron{
+	padding:0px;
 }
 
 
@@ -27,7 +31,7 @@ body {
 
 	font-family: 'Lobster', cursive;
 	color: white;
-	font-size: 100px;
+	/*font-size: 80px;*/
 	letter-spacing: 15px;
 	text-align: center;
 	font-weight: 200;
@@ -54,6 +58,7 @@ body {
 	color: white;
 	word-spacing: 8px;
 	letter-spacing: 5px;
+
 }
 
 .nav{
@@ -77,9 +82,15 @@ text-align: justify;
 	border: 1px solid grey;
 	}
 
-.glyphicons-book-open{
-	color:#0086b3;
+#mycarousel{
+	padding:0;
 }
+
+.carousel-img{
+height:100%;
+width: 100%;
+}
+<<<<<<< HEAD
 .container-contactpage {
 	font-family: 'Lobster', cursive;
 	color: grey;
@@ -88,6 +99,55 @@ text-align: justify;
 	text-align: left;
 	font-weight: 200;
 	line-height: 2;
+=======
+
+.carousel-caption{
+	padding:0px;
+	margin: 0px;
+}
+
+.panel-title {
+text-decoration: none;
+font-family: "Lobster";
+letter-spacing: 1px;
+margin-left:10px;
+}
+
+
+<<<<<<< HEAD
+
+
+/*
+h1 {
+	color: white;
+	font-weight: 700;
+	font-size:100px;
+	text-align: center;
+	letter-spacing: 8px
+}
+h2 { 
+	color: white;
+	font-weight: 300;
+	font-size: 35px;
+	word-spacing: 8px;
+	text-align: center;
+
+
+}
+
+form {
+	width: 300px;
+	margin: 0 auto;
+}
+
+input {
+	margin-bottom: 20px;
+
+}
+
+body {
+	background: #ececec;
+>>>>>>> origin/gh-pages
 }
 
 
