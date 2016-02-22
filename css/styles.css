@@ -75,10 +75,11 @@ text-align: justify;
 	border: 1px solid grey;
 	}
 
-.icon-bar{
-	background-color:#0086b3;
+.glyphicons-book-open{
+	color:#0086b3;
 }
-	
+
+
 /*
 h1 {
 	color: white;
