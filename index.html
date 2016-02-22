@@ -1,31 +1,372 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title> Virtuo Books - A collection of beautiful books
+	</title> 
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
- <link rel="stylesheet" href="css/styles.css" type="text/css"
 
-<title>
-Our Website
-</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/styles.css" type="text/css">
+
+	<script src="js/script.js"></script>
+
+
+
+	
 </head>
-<body>
-<h1>Hello</h1>
-<p>Welcome to our website </p>
-
-<h2> This is going to be an amazing website </h2>
-
-<ol>
-	<li>Element 1</li>
-	<li>Element 3</li>
-	<li>OneMore</li>
-</ol>
-
-<img src="images/book.jpg"/>
+<body data-spy="scroll" data-target="#category">
+	<div class="container">
 
 
-</body>
-</html>
+		<div class="navbar navbar" id="my-navbar">
+			<!--<div class="container">-->
+			<div class="navbar-header"> 
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+					<span class="icon-bar"></span> 
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+
+				</button>
+				<a href="" class="navbar-brand">VB</a>
+			</div> <!--Navbar header-->
+
+			<div class="collapse navbar-collapse" id="navbar-collapse">
+				<ul class="nav navbar-nav nav nav-tabs" role="tablist">
+
+					<li><a href="#about">About</a></li>
+					<li><a href="#categoryone">Category 1</a></li>
+					<li><a href="#categorytwo">Category 2</a></li>
+					<li><a href="#categorythree">Category 3</a></li>
+
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+
+					<li><a href="contactform.html"><span class="glyphicon glyphicon-envelope"></span></a></li> 
+				</ul>
+			</div>
+			<!--</div> -->
+
+			
+		</div> <!--end navbar-->
+
+
+		<div class="jumbotron">
+			
+			<h1>Virtuoso Biblio</h1>
+			<h2>A collection of beautiful books</h2> 
+			<h3>	- Classic - Modern - Universal - </h3>
+		</div>
+		
+
+		<!--<img src="images/moderneuphoria.jpg" alt=Moderneuphoria style="width:295px;height:400px;">-->
+		<!-- Let's not put dimensions in pixels as this won't look right when opened on mobile etc. We can use img-responsive class instead-->
+
+
+		<br>
+
+		<div class="row">
+			<div class="col-md-6">
+
+				<h4 id="about">About </h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla varius pharetra diam, et condimentum lectus lobortis ac. Quisque sit amet mauris placerat, rhoncus sapien in, elementum tortor. Morbi maximus eu dolor vitae mattis. Aliquam ultrices ultrices auctor. Curabitur ultrices lectus et elit scelerisque, id bibendum erat pellentesque. Nam quis libero sit amet sem consequat lacinia eget mattis purus. Aliquam in molestie tellus, in finibus magna. In egestas felis non orci varius semper. Proin lacinia, magna luctus gravida semper, tortor neque dapibus quam, non aliquet turpis lectus non magna. Sed auctor augue at odio sagittis ornare. Aenean congue neque nunc, id molestie lorem fermentum eget. Aenean interdum orci ac elit rhoncus, ac congue orci imperdiet.</p>
+			</div>
+			<div class="col-md-3 col-xs-6 survey">
+
+				<h5>What is your favourite book?</h5> 
+				<input type="text"> </input>
+				<button> Submit</button>
+
+
+
+				<!--<blockquote>
+					<h4> Review </h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla varius pharetra diam, et condimentum lectus lobortis ac. Quisque sit amet mauris placerat, rhoncus sapien in, elementum tortor. Morbi maximus eu dolor vitae mattis. </p> </blockquote>-->
+
+
+				</div>
+				<div class="col-md-3 col-xs-6">
+
+
+					<a class="twitter-timeline"
+					data-widget-id="701473157622996996"
+					href="https://twitter.com/@books"
+					width="300"
+					height="300">
+					Tweets by @books
+
+				</a>
+
+
+
+			</div>
+		</div>
+		<!--grids with books begin-->
+
+
+	</br>
+
+
+
+	<div class="bs-example">
+		<div class="panel-group" id="accordion">
+			<div class="panel panel-default" id="categoryone">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Category 1</a>
+					</h4>
+				</div>
+				<div id="collapseOne" class="panel-collapse collapse">
+					<div class="panel-body">
+
+						<div class="row" >
+
+							<div class="col-md-3 col-sm-6 book-div">
+								<img class="book-img" src="images/1.jpg"/>
+								<small><h4>Title</h4>
+									<h5>Author</h5>
+									<p>A very short description about this book </p></small>
+									
+
+									<button type="button" class="btn btn-info btn-md" id="myBtn1">read more...</button>
+
+									<div class="modal fade" id="myModal1" role="dialog">
+										<div class="modal-dialog">
+
+
+
+											<!-- Modal content-->
+											<div class="modal-content">
+												<div class="modal-header">
+													<button type="button" class="close" data-dismiss="modal">&times;</button>
+													<h4 class="modal-title">Modal Methods</h4>
+												</div>
+												<div class="modal-body">
+													<p>The toggle method toggles the modal manually.</p>
+												</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+												</div>
+											</div>
+
+										</div>
+									</div>
+								</div>
+
+
+								
+
+								
+
+								<div class="col-md-3 col-sm-6 book-div" >
+									<img class="book-img" src="images/2.jpg">
+									<small><h4>Title</h4>
+										<h5>Author</h5>
+										<p>A very short description about this book </p></small>
+
+										<button type="button" class="btn btn-info btn-md" id="myBtn2">read more...</button>
+
+										<div class="modal fade" id="myModal2" role="dialog">
+											<div class="modal-dialog">
+
+
+
+												<!-- Modal content-->
+												<div class="modal-content">
+													<div class="modal-header">
+														<button type="button" class="close" data-dismiss="modal">&times;</button>
+														<h4 class="modal-title">Modal Methods</h4>
+													</div>
+													<div class="modal-body">
+														<p>The toggle method toggles the modal manually.</p>
+													</div>
+													<div class="modal-footer">
+														<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+													</div>
+												</div>
+
+											</div>
+										</div>
+
+
+									</div>
+
+									<div class="col-md-3 col-sm-6 book-div">
+										<img class="book-img" src="images/3.jpg">
+										<small><h4>Title</h4>
+											<h5>Author</h5>
+											<p>A very short description about this book </p></small>
+
+											<button type="button" class="btn btn-info btn-md" id="myBtn3">read more...</button>
+
+											<div class="modal fade" id="myModal3" role="dialog">
+												<div class="modal-dialog">
+
+
+
+													<!-- Modal content-->
+													<div class="modal-content">
+														<div class="modal-header">
+															<button type="button" class="close" data-dismiss="modal">&times;</button>
+															<h4 class="modal-title">Modal Methods</h4>
+														</div>
+														<div class="modal-body">
+															<p>The toggle method toggles the modal manually.</p>
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+														</div>
+													</div>
+
+												</div>
+											</div>
+
+										</div>
+
+										<div class="col-md-3 col-sm-6 book-div">
+											<img class="book-img" src="images/4.jpg">
+											<small><h4>Title</h4>
+												<h5>Author</h5>
+												<p>A very short description about this book </p></small>
+
+												<button type="button" class="btn btn-info btn-md" id="myBtn4">read more...</button>
+
+												<div class="modal fade" id="myModal4" role="dialog">
+													<div class="modal-dialog">
+
+
+
+														<!-- Modal content-->
+														<div class="modal-content">
+															<div class="modal-header">
+																<button type="button" class="close" data-dismiss="modal">&times;</button>
+																<h4 class="modal-title">Modal Methods</h4>
+															</div>
+															<div class="modal-body">
+																<p>The toggle method toggles the modal manually.</p>
+															</div>
+															<div class="modal-footer">
+																<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+															</div>
+														</div>
+
+													</div>
+												</div>
+
+											</div>
+										</div> <!--closes row1-->
+
+
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading" id="categorytwo">
+									<h4 class="panel-title" >
+										<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Category 2</a>
+									</h4>
+								</div>
+								<div id="collapseTwo" class="panel-collapse collapse">
+									<div class="panel-body">
+
+
+										<div class="row">
+
+											<div class="col-md-3 col-sm-6 book-div">
+												<img class="book-img" src="images/5.jpg">
+												<small><h4>Title</h4>
+													<h5>Author</h5>
+													<p>A very short description about this book </p></small>
+												</div>
+
+												<div class="col-md-3 col-sm-6 book-div" >
+													<img class="book-img" src="images/6.jpg">
+													<small><h4>Title</h4>
+														<h5>Author</h5>
+														<p>A very short description about this book </p></small>
+													</div>
+
+													<div class="col-md-3 col-sm-6 book-div">
+														<img class="book-img" src="images/7.jpg">
+														<small><h4>Title</h4>
+															<h5>Author</h5>
+															<p>A very short description about this book </p></small>
+														</div>
+
+														<div class="col-md-3 col-sm-6 book-div">
+															<img class="book-img" src="images/9.jpg">
+															<small><h4>Title</h4>
+																<h5>Author</h5>
+																<p>A very short description about this book </p></small>
+															</div>
+														</div> <!--closes row2-->	
+
+
+													</div>
+												</div>
+											</div>
+											<div class="panel panel-default">
+												<div class="panel-heading">
+													<h4 class="panel-title" id="categorythree">
+														<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Category 3</a>
+													</h4>
+												</div>
+												<div id="collapseThree" class="panel-collapse collapse">
+													<div class="panel-body">
+
+														<div class="row">
+
+															<div class="col-md-3 col-sm-6 book-div">
+																<img class="book-img" src="images/5.jpg">
+																<small><h4>Title</h4>
+																	<h5>Author</h5>
+																	<p>A very short description about this book </p></small>
+																</div>
+
+																<div class="col-md-3 col-sm-6 book-div" >
+																	<img class="book-img" src="images/6.jpg">
+																	<small><h4>Title</h4>
+																		<h5>Author</h5>
+																		<p>A very short description about this book </p></small>
+																	</div>
+
+																	<div class="col-md-3 col-sm-6 book-div">
+																		<img class="book-img" src="images/7.jpg">
+																		<small><h4>Title</h4>
+																			<h5>Author</h5>
+																			<p>A very short description about this book </p></small>
+																		</div>
+
+																		<div class="col-md-3 col-sm-6 book-div">
+																			<img class="book-img" src="images/9.jpg">
+																			<small><h4>Title</h4>
+																				<h5>Author</h5>
+																				<p>A very short description about this book </p></small>
+																			</div>
+																		</div> <!--closes row2-->	
+
+																	</div>
+																</div>
+															</div>
+														</div>
+
+													</div>
+
+
+
+
+
+													<!-- Testing twitter social media button html -->
+													<a href="https://twitter.com/books" class="twitter-follow-button" data-show-count="false"></a>
+													<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+													<a href="contactform.html"> Contact Us </a>
+
+
+												</div> <!--closes the container -->
+
+											</body>
+											</html>

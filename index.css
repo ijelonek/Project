@@ -1,0 +1,65 @@
+h1 {
+	color: white;
+	font-family:'Josefin Sans', sans-serif;
+	font-weight: 400;
+	font-size:100px;
+	text-align: center;
+	letter-spacing: 8px
+}
+h2 { 
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 200;
+	font-size: 35px;
+	word-spacing: 8px;
+	text-align: center;
+
+
+}
+
+form {
+	width: 300px;
+	margin: 0 auto;
+}
+
+input {
+	margin-bottom: 20px;
+
+}
+
+body {
+	background: #ececec;
+}
+
+h1 {
+	color: white;
+	font-family:'Josefin Sans', sans-serif;
+	font-weight: 400;
+	font-size:100px;
+	text-align: center;
+	letter-spacing: 8px
+}
+h2 { 
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 200;
+	font-size: 35px;
+	word-spacing: 8px;
+	text-align: center;
+
+
+}
+
+form {
+	width: 300px;
+	margin: 0 auto;
+}
+
+input {
+	margin-bottom: 20px;
+
+}
+
+body {
+	background: #ececec;
+}

@@ -1,0 +1,100 @@
+body {
+  position: relative;
+  background-color:white;
+}
+
+
+.book-img{
+	width: 200px;
+	height:300px;
+}
+
+.book-div{
+	border: 1px solid grey;
+}
+
+.jumbotron{
+	background-image:url("../images/jumbotron5.jpg");
+	background-size: cover;
+	background-size: 100% 100%;
+	
+	height:100%;
+	width:100%;
+}
+
+
+.jumbotron h1{
+font-family: 'Lobster', cursive bold;
+
+}
+
+
+.jumbotron h2{
+	
+	font-family: 'Lobster';
+}
+
+
+.jumbotron h3{
+	
+	font-family: 'Lobster';
+	text-align: center;
+}
+
+.nav{
+	font-family: 'Lobster';
+
+}
+
+.nav a {
+	font-color:grey;
+}
+
+p{
+text-align: justify;
+}
+
+.container {
+	background-color:white;
+}
+
+.survey {
+	border: 1px solid grey;
+	}
+
+h1 {
+	color: white;
+	font-family:'Josefin Sans', sans-serif;
+	font-weight: 700;
+	font-size:100px;
+	text-align: center;
+	letter-spacing: 8px
+}
+h2 { 
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	font-size: 35px;
+	word-spacing: 8px;
+	text-align: center;
+
+
+}
+
+form {
+	width: 300px;
+	margin: 0 auto;
+}
+
+input {
+	margin-bottom: 20px;
+
+}
+
+body {
+	background: #ececec;
+}
+
+h3{
+	color:white;
+}
