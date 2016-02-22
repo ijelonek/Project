@@ -52,6 +52,9 @@ body {
 	
 	font-family: 'Lobster';
 	text-align: center;
+	color: white;
+	word-spacing: 8px;
+	letter-spacing: 5px;
 }
 
 .nav{
@@ -79,44 +82,4 @@ text-align: justify;
 	background-color:#0086b3;
 }
 	
-/*
-h1 {
-	color: white;
-	font-weight: 700;
-	font-size:100px;
-	text-align: center;
-	letter-spacing: 8px
-}
-h2 { 
-	color: white;
-	font-weight: 300;
-	font-size: 35px;
-	word-spacing: 8px;
-	text-align: center;
 
-
-}
-
-form {
-	width: 300px;
-	margin: 0 auto;
-}
-
-input {
-	margin-bottom: 20px;
-
-}
-
-body {
-	background: #ececec;
-}
-
-<<<<<<< HEAD
-h3{
-	color:white;
-}
-
-
-=======
-*/
->>>>>>> origin/master
