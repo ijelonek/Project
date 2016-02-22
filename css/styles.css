@@ -13,13 +13,17 @@ body {
 	border: 1px solid grey;
 }
 
-.jumbotron{
+/*.jumbotron{
 	background-image:url("../images/jumbotron5.jpg");
 	background-size: cover;
 	background-size: 100% 100%;
 	
 	height:100%;
 	width:100%;
+}*/
+
+.jumbotron{
+	padding:0px;
 }
 
 
@@ -54,6 +58,7 @@ body {
 	color: white;
 	word-spacing: 8px;
 	letter-spacing: 5px;
+
 }
 
 .nav{
@@ -77,9 +82,17 @@ text-align: justify;
 	border: 1px solid grey;
 	}
 
-.glyphicons-book-open{
-	color:#0086b3;
+#mycarousel{
+	padding:0;
 }
+
+.carousel-img{
+height:100%;
+width: 100%;
+}
+
+
+
 <<<<<<< HEAD
 
 
