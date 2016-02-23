@@ -106,15 +106,19 @@ width: 100%;
 	margin: 0px;
 }
 
-.panel-title {
+/*.panel-title {
 text-decoration: none;
 font-family: "Lobster";
 letter-spacing: 1px;
 margin-left:10px;
-}
+}*/
 
-.arrow-down{
-	text-align: right;
+.panel-title{
+text-decoration: none;
+font-family: "Lobster";
+letter-spacing: 1px;
+margin-left:10px;
+
 }
 
 <<<<<<< HEAD
