@@ -127,7 +127,43 @@ width: 100%;
 
  #review{
 	max-width: 400px;
-	background-color: yellow;
+	background-color: #0086b3;
+	color:white;
+	padding-top:15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+	margin-top: 50px;
+	border-radius: 30px;
+	border-color:white;
+	font-family: "Lobster";
+	line-height: 2px;
+}
+
+.about {
+
+
+	font-family: 'Lobster', cursive;
+}
+
+
+.about-p{
+
+font-family: 'Yanone Kaffeesatz', sans-serif;	
+text-align:	 justify;
+letter-spacing: 1px;
+line-height: 25px;
+margin-top: 30px;
+}
+
+.about-p:last-child {
+	text-align:center;
+}
+
+
+form{
+font-family: 'Yanone Kaffeesatz', sans-serif;
+letter-spacing: 1px;
 }
 
 /* Contact form css below*/
@@ -252,6 +288,10 @@ textarea:focus {
         margin: 0 auto 0 auto;
       }
 
+
+#form-title{
+	font-family: 'Lobster', cursive;
+}
 
 /*.panel-title {
 text-decoration: none;

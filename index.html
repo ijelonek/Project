@@ -7,9 +7,11 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="css/styles.css" type="text/css">
 
@@ -134,13 +136,15 @@
 		<div class="row">
 			<div class="col-md-6">
 
-				<h4 id="about">About </h4>
+		<!--		<h1 class="about">About </h1>-->
 
 
 
-				<p>Virtuoso Books are a chain of bookstores dedicated to providing you with 
+				<h4 class="about-p">Virtuoso Books are a chain of bookstores dedicated to providing you with 
 					the most beautiful bookshelf. Our expert team of beautiful book experts have
-					searched far and wide to fill our stores with Classic, Platinum and Modern Editions for you to peruse and purchase and embrace and enjoy. Virtuoso Bibilio are commited to finding and displaying all the most stunning, visually-appealing, aesthetically-pleasing tomes. Whether you are an avid book collector or looking for the most amazing gift for the book lover in your life - we are here to provide. </p><p>Who said you should never judge a book by its cover?</p>
+					searched far and wide to fill our stores with Classic, Platinum and Modern Editions for you to peruse and purchase and embrace and enjoy. Virtuoso Bibilio are commited to finding and displaying all the most stunning, visually-appealing, aesthetically-pleasing tomes. Whether you are an avid book collector or looking for the most amazing gift for the book lover in your life - we are here to provide. </h4>
+
+				<h3 class="about-p">Who said you should never judge a book by its cover?</h3>
 
 				</div>
 				
@@ -150,7 +154,7 @@
 
 
 
-					<button class="center-clock" id="review">Are you a book lover? Tell us about your favourite book for a chance to win &pound 50 Virtuoso Books voucher!</button>
+					<button id="review"><h3>Are you a book lover?</h3><h4>Tell us about your favourite book for a chance to win &pound50 Virtuoso Biblio voucher!</h4></button>
 
 
 					<div class="modal fade" id="myModal-review" role="dialog">
@@ -161,47 +165,79 @@
 							<div class="modal-content">
 								<div class="modal-header">
 									<button type="button" class="close" data-dismiss="modal">&times;</button>
-									<h4 class="modal-title">What is your favourite book of all times?</h4>
+									<h2 class="modal-title" id="form-title">What is your favourite book of all times?</h2>
 								</div>
 								<div class="modal-body">
 									<form>
 										<header>
-											<h2> Please tell us about your favourite book</h2>
+											<h4> Please tell us about your favourite book</h4>
 											<div>What book has kept you awake till dawn, made you cry or laugh? Share your stories with Virtuoso Books.
-											</div>
+											</div></br>
 										</header>
 										<div>
-											<label class="desc" id="title1" for="Field1">Title</label>
+											<label class="desc" id="title1" for="Field1">Title:</label>
 
 											<div>
-												<input id="Field1" name="Field1" type="text" class="field text fn" value="" size="8" tabindex="1">
+												<input id="Field1" name="Field1" type="text" class="field text fn" value="" maxlength="255" tabindex="1">
 											</div>
-										</div>
+										</div></br>
 
 										<div>
-											<label class="desc" id="title2" for="Field2">Author</label>
+											<label class="desc" id="title2" for="Field2">Author:</label>
 											<div>
-												<input id="Field2" name="Field2" type="text" spellcheck="false" value="" maxlength="255" tabindex="3">
+												<input id="Field2" name="Field2" type="text" spellcheck="false" value="" maxlength="255" tabindex="2">
 											</div>
-										</div>
+										</div></br>
 
 										<div>
-											<label class="desc" id="title3" for="Field4">Your review</label>
+											<label class="desc" id="title3" for="Field4">Your review:</label>
 											<div>
-												<textarea id="Field3" name="Field3" spellcheck="true" rows="10" cols="50" tabindex="4"></textarea>
+												<textarea id="Field3" name="Field3" spellcheck="true" rows="10" cols="50" tabindex="3"></textarea>
 											</div>
+										
 										</div>
 
+									<hr>
+									<h4>Please fill in your contact details if you'd like to be considered for our prize draw.</h4>
+
+										<div>
+											<label class="desc" id="title4" for="Field4">Your name:</label>
+
+											<div>
+												<input id="Field1" name="Field4" type="text" class="field text fn" value="" maxlength="255" tabindex="4">
+											</div>
+										</div>
+									</br>
+
+										<div>
+											<label class="desc" id="title4" for="Field5">Your email address:</label>
+
+											<div>
+												<input id="Field1" name="Field5" type="email" class="field text fn" value="" maxlength="255" tabindex="5">
+											</div>
+										</div>
+									</br>
+
+										<div>
+											<fieldset>
+												
+											<div>
+											<input id="Field6" name="Field6" type="checkbox" value="Yes" tabindex="6">
+											<label class="choice" for="Field6"> Tick this box if you'd like to receive our monthly newsletter.</label>
+
+										</div>
+									</div>
 
 
-
+											</fieldset>
 
 
 
 
 									</div>
 									<div class="modal-footer">
-										<button type="button" class="btn btn-xs" data-dismiss="modal">Close</button>
+									<button class="  btn-review">Submit your review!</button>
+										
 									</div>
 								</div>
 
