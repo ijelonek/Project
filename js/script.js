@@ -62,3 +62,8 @@ $(document).ready(function(){
 });
 
 
+$(document).ready(function(){
+    $("#review").click(function(){
+        $("#myModal-review").modal("toggle");
+    });
+});

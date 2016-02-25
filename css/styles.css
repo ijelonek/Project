@@ -82,8 +82,6 @@ letter-spacing: 1px;
 
 
 
-
-
 p{
 text-align: justify;
 }
@@ -92,9 +90,9 @@ text-align: justify;
 	background-color:white;
 }
 
-.survey {
-	border: 1px solid grey;
-	}
+
+
+
 
 #mycarousel{
 	padding:0;
@@ -124,6 +122,14 @@ width: 100%;
 .table{
 	padding:10px;
 }
+
+
+
+ #review{
+	max-width: 400px;
+	background-color: yellow;
+}
+
 
 /*.panel-title {
 text-decoration: none;
