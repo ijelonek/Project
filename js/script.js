@@ -37,3 +37,28 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function(){
+    $("#myBtn5").click(function(){
+        $("#myModal5").modal("toggle");
+    });
+});
+
+$(document).ready(function(){
+    $("#myBtn6").click(function(){
+        $("#myModal6").modal("toggle");
+    });
+});
+
+$(document).ready(function(){
+    $("#myBtn7").click(function(){
+        $("#myModal7").modal("toggle");
+    });
+});
+
+$(document).ready(function(){
+    $("#myBtn8").click(function(){
+        $("#myModal8").modal("toggle");
+    });
+});
+
+

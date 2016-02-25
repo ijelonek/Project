@@ -4,28 +4,21 @@ body {
 }
 
 
+/* This needs to be change to make sure that all images look good*/
+
 .book-img{
 	width: 200px;
 	height:300px;
 }
 
+.icon-bar{
+	background-color: #0086b3;
+
+}
+
 .book-div{
 	border: 1px solid grey;
 }
-
-/*.jumbotron{
-	background-image:url("../images/jumbotron5.jpg");
-	background-size: cover;
-	background-size: 100% 100%;
-	
-	height:100%;
-	width:100%;
-}*/
-
-.jumbotron{
-	padding:0px;
-}
-
 
 .jumbotron h1{
 
@@ -61,6 +54,7 @@ body {
 
 }
 
+
 .nav{
 	font-family: 'Lobster';
 
@@ -69,6 +63,26 @@ body {
 .nav a {
 	font-color:#0086b3;
 }
+
+
+.panel-title{
+text-decoration: none;
+font-family: "Lobster";
+letter-spacing: 1px;
+
+
+}
+
+
+
+
+.jumbotron{
+	padding:0px;
+}
+
+
+
+
 
 p{
 text-align: justify;
@@ -90,7 +104,7 @@ text-align: justify;
 height:100%;
 width: 100%;
 }
-<<<<<<< HEAD
+
 .container-contactpage {
 	font-family: 'Lobster', cursive;
 	color: grey;
@@ -99,38 +113,27 @@ width: 100%;
 	text-align: left;
 	font-weight: 200;
 	line-height: 2;
-=======
+}
 
 .carousel-caption{
 	padding:0px;
 	margin: 0px;
 }
 
-.panel-title {
+
+.table{
+	padding:10px;
+}
+
+/*.panel-title {
 text-decoration: none;
 font-family: "Lobster";
 letter-spacing: 1px;
 margin-left:10px;
-}
 
 
-<<<<<<< HEAD
 
 
-/*
-h1 {
-	color: white;
-	font-weight: 700;
-	font-size:100px;
-	text-align: center;
-	letter-spacing: 8px
-}
-h2 { 
-	color: white;
-	font-weight: 300;
-	font-size: 35px;
-	word-spacing: 8px;
-	text-align: center;
 
 
 }
@@ -152,3 +155,4 @@ body {
 
 
 
+}*/
