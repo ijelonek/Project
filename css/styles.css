@@ -161,12 +161,16 @@ margin-top: 30px;
 }
 
 
+#form-title{
+	font-family: 'Lobster', cursive;
+}
 
 
-form{
+#form-review{
 font-family: 'Yanone Kaffeesatz', sans-serif;
 letter-spacing: 1px;
 }
+
 
 /* Contact form css below*/
 
@@ -288,12 +292,40 @@ textarea:focus {
         height: 400px;
         background-color: grey;
         margin: 0 auto 0 auto;
+        border: 1px grey solid;
       }
 
 
-#form-title{
-	font-family: 'Lobster', cursive;
-}
+
+
+
+		ul.tabs{
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+		}
+		ul.tabs li{
+			background: none;
+			color: #222;
+			display: inline-block;
+			padding: 10px 15px;
+			cursor: pointer;
+		}
+
+		ul.tabs li.current{
+			background: #ededed;
+			color: #222;
+		}
+
+		.tab-content{
+			display: none;
+			background: #ededed;
+			padding: 15px;
+		}
+
+		.tab-content.current{
+			display: inherit;
+		}
 
 /*.panel-title {
 text-decoration: none;
