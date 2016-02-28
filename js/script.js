@@ -103,3 +103,13 @@ $(document).ready(function(){
         $("#collapseone").toggle();
     });
 }); 
+
+$(document).ready(function(){
+$("#btn-review").click(function(event){
+$("#modal-thank-you").modal("toggle");
+
+});
+
+});
+
+
