@@ -1,6 +1,22 @@
 body {
   position: relative;
   background-color:white;
+  font-family: "Lobster", cursive;
+
+}
+
+
+
+h5{
+	font-family: "Lobster", cursive;
+	color:#0086b3;
+}
+
+
+h4{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	text-align: justify;
+	line-height: 23px;	
 }
 
 
@@ -182,6 +198,8 @@ letter-spacing: 1px;
 }
 
 
+
+
 form header {
   margin: 0 0 20px 0;
   color: grey;
@@ -193,7 +211,7 @@ form header {
 form header div {
   font-size: 90%;
   color: #999;
-  font-family: 'Lobster' , cursive ;
+font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 form header h2 {
   margin: 0 0 5px 0;
@@ -212,7 +230,8 @@ legend {
 	width: 25%;
   float: left;
   padding-right: 10px;
-  font-family: 'Lobster' , cursive;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+
 }
 form > div > div,
 form > div > fieldset > div {
@@ -220,12 +239,18 @@ form > div > fieldset > div {
   float: right;
 }
 form > div > fieldset label {
-	font-size: 90%;
-	font-family: 'Lobster' , cursive;
+	font-size: 100%;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+
 }
 fieldset {
 	border: 0;
   padding: 0;
+}
+
+.options-dropdown{
+
+	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 input[type=text],
@@ -298,34 +323,30 @@ textarea:focus {
 
 
 
+  ul.tabs li{
+		background: none;
+		color: #222;
+		display: inline-block;
+		padding: 10px 15px;
+		cursor: pointer;
+	}
 
-		ul.tabs{
-			margin: 0px;
-			padding: 0px;
-			list-style: none;
-		}
-		ul.tabs li{
-			background: none;
-			color: #222;
-			display: inline-block;
-			padding: 10px 15px;
-			cursor: pointer;
-		}
+	ul.tabs li.current{
+		background: #ededed;
+		color: #222;
+	}
 
-		ul.tabs li.current{
-			background: #ededed;
-			color: #222;
-		}
+	.tab-content{
+		display: none;
+		background: #ededed;
+		padding: 15px;
+	}
 
-		.tab-content{
-			display: none;
-			background: #ededed;
-			padding: 15px;
-		}
+	.tab-content.current{
+		display: inherit;
+	}
 
-		.tab-content.current{
-			display: inherit;
-		}
+
 
 /*.panel-title {
 text-decoration: none;
