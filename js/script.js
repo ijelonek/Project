@@ -97,3 +97,9 @@ $(document).ready(function(){
     })
 
 })
+
+$(document).ready(function(){
+    $("#categoryone").click(function(event){
+        $("#collapseone").toggle();
+    });
+}); 
