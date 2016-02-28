@@ -20,6 +20,12 @@ h4{
 }
 
 
+p{
+
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	
+}
+
 /* This needs to be change to make sure that all images look good*/
 
 .book-img{
@@ -248,10 +254,9 @@ fieldset {
   padding: 0;
 }
 
-.options-dropdown{
 
-	font-family: 'Yanone Kaffeesatz', sans-serif;
-}
+
+
 
 input[type=text],
 input[type=email],
