@@ -23,7 +23,7 @@ h4{
 p{
 
 	font-family: 'Yanone Kaffeesatz', sans-serif;
-	
+
 }
 
 /* This needs to be change to make sure that all images look good*/
@@ -31,6 +31,8 @@ p{
 .book-img{
 	width: 200px;
 	height:300px;
+	border:2px solid  #e0e0eb;
+	border-radius: 5px;
 }
 
 .icon-bar{
@@ -38,9 +40,9 @@ p{
 
 }
 
-.book-div{
+/*.book-div{
 	border: 1px solid grey;
-}
+}*/
 
 .jumbotron h1{
 
@@ -136,9 +138,14 @@ width: 100%;
 }
 
 .carousel-caption{
+	position: absolute; 
+
+
 	padding:0px;
 	margin: 0px;
 }
+
+
 
 
 .table{
@@ -320,6 +327,9 @@ textarea:focus {
 #map {
         width: 500px;
         height: 400px;
+
+
+
         background-color: grey;
         margin: 0 auto 0 auto;
         border: 1px grey solid;
